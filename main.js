@@ -4,7 +4,7 @@ const elInput = document.querySelector('.search__input  ')
 
 const API__KEY = 'cd8de5f4'
 
-fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=${API__KEY}&s=films`)
+fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=${API__KEY}&s=films`)
     .then(response => response.json())
     .then(filmsApi =>
 
